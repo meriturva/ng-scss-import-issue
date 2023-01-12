@@ -1,0 +1,288 @@
+ng serve --verbose
+⠙ Generating browser application bundles (phase: setup)...<i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:4200/, http://[::1]:4200/
+<i> [webpack-dev-server] 404s will fallback to '/index.html'
+<t> [webpack.cache.PackFileCacheStrategy] restore cache container: 158.0394 ms
+⠸ Generating browser application bundles (phase: building)...<t> [webpack.cache.PackFileCacheStrategy] check build dependencies: 2344.8386 ms
+<t> [webpack.cache.PackFileCacheStrategy] restore cache content metadata: 5.4125 ms
+    [webpack.cache.PackFileCacheStrategy] starting to restore cache content 0 (62.7 MiB) because of request to: ProgressPlugin|counts
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/modules|D:\Projects\daButtare\testKendoTheme\node_modules\mini-css-extract-plugin\dist\loader.js!D:\Projects\daButtare\testKendoTheme\node_modules\css-loader\dist\cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!D:\Projects\daButtare\testKendoTheme\node_modules\postcss-loader\dist\cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!D:\Projects\daButtare\testKendoTheme\node_modules\resolve-url-loader\index.js??ruleSet[1].rules[6].rules[1].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\sass-loader\dist\cjs.js??ruleSet[1].rules[6].rules[1].use[1]!D:\Projects\daButtare\testKendoTheme\src\styles.scss?ngGlobalStyle': 2.3283 ms
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/modules|javascript/esm|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\@angular\platform-browser\fesm2020\platform-browser.mjs': 2.0857 ms
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/modules|javascript/esm|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\@angular\core\fesm2020\core.mjs': 1.0604 ms
+<i> [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/modules|javascript/esm|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\@angular\router\fesm2020\router.mjs': 10.566 ms
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/modules|javascript/esm|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\@angular\common\fesm2020\common.mjs': 1.2911 ms
+<t> [webpack.cache.PackFileCacheStrategy] restore cache content 0 (62.7 MiB): 142.7333 ms
+⠹ Generating browser application bundles (phase: building)...    [webpack.cache.PackFileCacheStrategy] starting to restore cache content 1 (361 MiB) because of request to: ResolverCachePlugin|normal|default|dependencyType=|esm|path=|D:\Projects\daButtare\testKendoTheme\src|request=|../node_modules/css-loader/dist/runtime/sourceMaps.js
+⠼ Generating browser application bundles (phase: building)...    [webpack.cache.PackFileCacheStrategy] Deserialization of 'FlagDependencyExportsPlugin|javascript/esm|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\@angular\core\fesm2020\core.mjs': 1.4829 ms
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/codeGeneration|javascript/esm|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\@angular\core\fesm2020\core.mjs|runtime': 1.6255 ms
+    [webpack.cache.PackFileCacheStrategy] Deserialization of 'Compilation/assets|chunkvendor': 2.1702 ms
+<t> [webpack.cache.PackFileCacheStrategy] restore cache content 1 (361 MiB): 663.5766 ms
+⠏ Generating browser application bundles (phase: emitting)...    [IdleFileCachePlugin] Initial cache was generated and cache will be persisted in 5s.
+✔ Browser application bundle generation complete.
+    [webpack-dev-middleware] Compilation finished
+asset styles.css 46.2 MiB {styles} [emitted] (name: styles) 1 related asset
+asset vendor.js 2.03 MiB {vendor} [emitted] (name: vendor) (id hint: defaultVendors) 1 related asset
+asset polyfills.js 314 KiB {polyfills} [emitted] (name: polyfills) 1 related asset
+asset styles.js 209 KiB {styles} [emitted] (name: styles) 1 related asset
+asset runtime.js 6.53 KiB {runtime} [emitted] (name: runtime) 1 related asset
+asset main.js 5.69 KiB {main} [emitted] (name: main) 1 related asset
+asset favicon.ico 948 bytes [emitted] [from: src/favicon.ico] [copied]
+asset index.html 570 bytes [emitted]
+Entrypoint main 2.05 MiB (3.35 MiB) = runtime.js 6.53 KiB vendor.js 2.03 MiB main.js 5.69 KiB 3 auxiliary assets
+Entrypoint polyfills 321 KiB (572 KiB) = runtime.js 6.53 KiB polyfills.js 314 KiB 2 auxiliary assets
+Entrypoint styles 46.4 MiB (7.82 MiB) = runtime.js 6.53 KiB styles.css 46.2 MiB styles.js 209 KiB 3 auxiliary assets
+chunk {main} (runtime: runtime) main.js (main) 2.21 KiB [initial]
+  cached modules 2.21 KiB [cached] 4 modules
+chunk {polyfills} (runtime: runtime) polyfills.js (polyfills) 300 KiB [initial]
+  cached modules 300 KiB [cached] 21 modules
+chunk {runtime} (runtime: runtime) runtime.js (runtime) 3.36 KiB [entry] [rendered]
+  runtime modules 3.36 KiB 7 modules
+chunk {styles} (runtime: runtime) styles.css, styles.js (styles) 194 KiB (javascript) 46.2 MiB (css/mini-extract) [initial] [rendered]
+  cached modules 194 KiB [cached] 20 modules
+  dependent modules 46.2 MiB [dependent] 1 module
+  ./src/styles.scss?ngGlobalStyle [1520] 50 bytes {styles} [built] [code generated]
+    [used exports unknown]
+    entry D:\Projects\daButtare\testKendoTheme\src\styles.scss?ngGlobalStyle styles
+chunk {vendor} (runtime: runtime) vendor.js (vendor) (id hint: defaultVendors) 1.87 MiB [initial] split chunk (cache group: defaultVendors) (name: vendor)
+  cached modules 1.87 MiB [cached] 104 modules
+
+
+LOG from webpack.FileSystemInfo
+    4 new snapshots created
+    31% root snapshot uncached (919 / 2996)
+    18% children snapshot uncached (540 / 3065)
+    2647 entries tested
+    File info in cache: 697 timestamps 0 hashes 0 timestamp hash combinations
+    File timestamp snapshot optimization: 100% (34/34) entries shared via 2 shared snapshots (2 times referenced)
+    Directory info in cache: 0 timestamps 0 hashes 0 timestamp hash combinations
+    Missing items snapshot optimization: 100% (1214/1216) entries shared via 1 shared snapshots (1 times referenced)
+    Managed items info in cache: 96 items
+    Managed items snapshot optimization: 93% (14/15) entries shared via 1 shared snapshots (1 times referenced)
+    Managed files snapshot optimization: 100% (1240/1243) entries shared via 1 shared snapshots (1 times referenced)
+    Managed missing snapshot optimization: 100% (176/176) entries shared via 1 shared snapshots (1 times referenced)
++ 1 hidden lines
+
+LOG from webpack.Compilation
+<t> runtime requirements.modules: 0.6117 ms
+<t> runtime requirements.chunks: 0.7315 ms
+<t> runtime requirements.entries: 4.3807 ms
+<t> compute affected modules: 0.3028 ms
+<t> finish modules: 95.5209 ms
+<t> report dependency errors and warnings: 7.1878 ms
+<t> optimize dependencies: 4.9475 ms
+<t> create chunks: 6.5647 ms
+<t> compute affected modules with chunk graph: 0.2982 ms
+<t> optimize: 18.7441 ms
+    111 modules hashed, 0 from cache (0.42 variants per module in average)
+<t> module hashing: 11.1034 ms
+    2% code generated (2 generated, 109 from cache)
+<t> code generation: 3.4624 ms
+<t> runtime requirements.modules: 0.6995 ms
+<t> runtime requirements.chunks: 0.2157 ms
+<t> runtime requirements.entries: 0.9331 ms
+<t> runtime requirements: 1.9912 ms
+<t> hashing: initialize hash: 0.0099 ms
+<t> hashing: hash warnings: 0.0038 ms
+<t> hashing: sort chunks: 0.2613 ms
+<t> hashing: hash runtime modules: 1.8873 ms
+<t> hashing: hash chunks: 4.6015 ms
+<t> hashing: hash digest: 0.0511 ms
+<t> hashing: process full hash modules: 0.174 ms
+<t> hashing: 7.9541 ms
+    14% code generated (1 generated, 6 from cache)
+<t> record hash: 0.0879 ms
+<t> module assets: 0.3568 ms
+<t> create chunk assets: 325.1361 ms
+<t> process assets: 1271.9092 ms
+
+LOG from webpack.Compiler
+<t> make hook: 80746.7116 ms
+<t> finish make hook: 0.1586 ms
+<t> finish compilation: 103.4407 ms
+<t> seal compilation: 1655.1147999999998 ms
+<t> afterCompile hook: 0.3689 ms
+<t> emitAssets: 360.7521 ms
+<t> emitRecords: 0.1194 ms
+
+LOG from webpack.ResolverCachePlugin
+    0% really resolved (2 real resolves with 2 cached but invalid, 2734 cached valid, 0 concurrent)
+
+LOG from webpack.FlagDependencyExportsPlugin
+<t> restore cached provided exports: 6.2165 ms
+<t> figure out provided exports: 7.0408 ms
+    2% of exports of modules have been determined (14 no declared exports, 4 not cached, 0 flagged uncacheable, 247 from cache, 0 from mem cache, 0 additional calculations due to dependencies)
+<t> store provided exports into cache: 0.2514 ms
+
+LOG from webpack.SideEffectsFlagPlugin
+<t> update dependencies: 4.3832 ms
+
+LOG from webpack.buildChunkGraph
+<t> visitModules: prepare: 2.0037 ms
+<t> visitModules: visiting: 3.6667 ms
+    329 queue items processed (151 blocks)
+    0 chunk groups connected
+    0 chunk groups processed for merging (0 module sets, 0 forked, 0 + 0 modules forked, 0 + 0 modules merged into fork, 0 resulting modules)
+    0 chunk group info updated (0 already connected chunk groups reconnected)
+<t> visitModules: 4.5546 ms
+<t> connectChunkGroups: 0.1586 ms
+<t> cleanup: 0.0852 ms
+
+LOG from webpack.SplitChunksPlugin
+<t> prepare: 0.0482 ms
+<t> modules: 4.9651 ms
+<t> queue: 0.502 ms
+<t> maxSize: 0.0208 ms
+
+LOG from copy-webpack-plugin
+    starting to add additional assets...
+    starting to process a pattern from 'favicon.ico' using 'D:/Projects/daButtare/testKendoTheme/src/' context
+    starting to process a pattern from '**\*' using 'D:/Projects/daButtare/testKendoTheme/src/assets/' context
+    begin globbing 'D:/Projects/daButtare/testKendoTheme/src/favicon.ico'...
+    begin globbing 'D:/Projects/daButtare/testKendoTheme/src/assets/**/*'...
+    finished to process a pattern from '**\*' using 'D:/Projects/daButtare/testKendoTheme/src/assets/' context to 'assets/'
+    'to' option '.' determinated as 'dir'
+    determined that 'D:/Projects/daButtare/testKendoTheme/src/favicon.ico' should write to 'favicon.ico'
+    finished to process a pattern from 'favicon.ico' using 'D:\Projects\daButtare\testKendoTheme\src' context
+    writing 'favicon.ico' from 'D:\Projects\daButtare\testKendoTheme\src\favicon.ico' to compilation assets...
+    written 'favicon.ico' from 'D:\Projects\daButtare\testKendoTheme\src\favicon.ico' to compilation assets
+    finished to adding additional assets
++ 11 hidden lines
+
+WARNING in ./src/styles.scss?ngGlobalStyle (./src/styles.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[6].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[6].rules[1].use[1]!./src/styles.scss?ngGlobalStyle)
+Module Warning (from ./node_modules/sass-loader/dist/cjs.js):
+Deprecation Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($a, $b) or calc($a / $b)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+node_modules\@progress\kendo-theme-core\scss\functions\_math.import.scss 18:15             k-math-div()
+node_modules\@progress\kendo-theme-core\scss\functions\_color-contrast.import.scss 301:13  k-color-contrast-ratio()
+node_modules\@progress\kendo-theme-core\scss\functions\_color-contrast.import.scss 319:26  k-contrast-color()
+node_modules\@progress\kendo-theme-bootstrap\scss\_bootstrap-overrides.scss 16:24          @import
+node_modules\@progress\kendo-theme-bootstrap\scss\_variables.scss 2:9                      @import
+node_modules\@progress\kendo-theme-bootstrap\scss\core\_index.scss 19:9                    @import
+@progress\kendo-theme-bootstrap\scss\utils\_index.scss 1:9                                 @import
+src\styles.scss 6:9                                                                        root stylesheet
+SassWarning: Deprecation Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($a, $b) or calc($a / $b)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+node_modules\@progress\kendo-theme-core\scss\functions\_math.import.scss 18:15             k-math-div()
+node_modules\@progress\kendo-theme-core\scss\functions\_color-contrast.import.scss 301:13  k-color-contrast-ratio()
+node_modules\@progress\kendo-theme-core\scss\functions\_color-contrast.import.scss 319:26  k-contrast-color()
+node_modules\@progress\kendo-theme-bootstrap\scss\_bootstrap-overrides.scss 16:24          @import
+node_modules\@progress\kendo-theme-bootstrap\scss\_variables.scss 2:9                      @import
+node_modules\@progress\kendo-theme-bootstrap\scss\core\_index.scss 19:9                    @import
+@progress\kendo-theme-bootstrap\scss\utils\_index.scss 1:9                                 @import
+src\styles.scss 6:9                                                                        root stylesheet
+
+    at Object.warn (D:\Projects\daButtare\testKendoTheme\node_modules\sass-loader\dist\utils.js:189:37)
+    at Worker.<anonymous> (D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\sass\sass-service.js:138:36)
+    at Worker.emit (node:events:513:28)
+    at MessagePort.<anonymous> (node:internal/worker:233:53)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:735:20)
+    at exports.emitMessage (node:internal/per_context/messageport:23:28)
+ModuleWarning: Module Warning (from ./node_modules/sass-loader/dist/cjs.js):
+Deprecation Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($a, $b) or calc($a / $b)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+node_modules\@progress\kendo-theme-core\scss\functions\_math.import.scss 18:15             k-math-div()
+node_modules\@progress\kendo-theme-core\scss\functions\_color-contrast.import.scss 301:13  k-color-contrast-ratio()
+node_modules\@progress\kendo-theme-core\scss\functions\_color-contrast.import.scss 319:26  k-contrast-color()
+node_modules\@progress\kendo-theme-bootstrap\scss\_bootstrap-overrides.scss 16:24          @import
+node_modules\@progress\kendo-theme-bootstrap\scss\_variables.scss 2:9                      @import
+node_modules\@progress\kendo-theme-bootstrap\scss\core\_index.scss 19:9                    @import
+@progress\kendo-theme-bootstrap\scss\utils\_index.scss 1:9                                 @import
+src\styles.scss 6:9                                                                        root stylesheet
+
+    at Object.emitWarning (D:\Projects\daButtare\testKendoTheme\node_modules\webpack\lib\NormalModule.js:598:6)
+    at Object.warn (D:\Projects\daButtare\testKendoTheme\node_modules\sass-loader\dist\utils.js:189:25)
+    at Worker.<anonymous> (D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\sass\sass-service.js:138:36)
+    at Worker.emit (node:events:513:28)
+    at MessagePort.<anonymous> (node:internal/worker:233:53)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:735:20)
+    at exports.emitMessage (node:internal/per_context/messageport:23:28)
+ @ ./src/styles.scss?ngGlobalStyle
+
+2023-01-12 10:19:23: webpack 5.75.0 compiled in 85221 ms (62f2d287775d0d01)
+
+Initial Chunk Files   | Names         |  Raw Size
+styles.css, styles.js | styles        |  46.43 MB |
+vendor.js             | vendor        |   2.03 MB |
+polyfills.js          | polyfills     | 314.28 kB |
+runtime.js            | runtime       |   6.53 kB |
+main.js               | main          |   5.69 kB |
+
+| Initial Total |  48.78 MB
+
+Build at: 2023-01-12T09:19:23.306Z - Hash: 62f2d287775d0d01 - Time: 85287ms
+
+./src/styles.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[6].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[6].rules[1].use[1]!./src/styles.scss?ngGlobalStyle - Warning: Module Warning (from ./node_modules/sass-loader/dist/cjs.js):
+Deprecation Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($a, $b) or calc($a / $b)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+node_modules\@progress\kendo-theme-core\scss\functions\_math.import.scss 18:15             k-math-div()
+node_modules\@progress\kendo-theme-core\scss\functions\_color-contrast.import.scss 301:13  k-color-contrast-ratio()
+node_modules\@progress\kendo-theme-core\scss\functions\_color-contrast.import.scss 319:26  k-contrast-color()
+node_modules\@progress\kendo-theme-bootstrap\scss\_bootstrap-overrides.scss 16:24          @import
+node_modules\@progress\kendo-theme-bootstrap\scss\_variables.scss 2:9                      @import
+node_modules\@progress\kendo-theme-bootstrap\scss\core\_index.scss 19:9                    @import
+@progress\kendo-theme-bootstrap\scss\utils\_index.scss 1:9                                 @import
+src\styles.scss 6:9                                                                        root stylesheet
+
+
+
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+√ Compiled successfully.
+    [webpack.cache.PackFileCacheStrategy] Pack got invalid because of write to: ResolverCachePlugin|normal|default|dependencyType=|esm|path=|D:\Projects\daButtare\testKendoTheme|request=|D:\Projects\daButtare\testKendoTheme\src\styles.scss?ngGlobalStyle
+    [webpack.cache.PackFileCacheStrategy] Storing pack...
+    [webpack.cache.PackFileCacheStrategy] 16 fresh items in cache put into pack 2
+    [webpack.cache.PackFileCacheStrategy] Split pack 0 into pack 0 with 922 used items and pack 3 with 1 unused items
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'FlagDependencyExportsPlugin|javascript/esm|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\@angular\core\fesm2020\core.mjs': 1.0811 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'FlagDependencyExportsPlugin|javascript/esm|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\@angular\common\fesm2020\common.mjs': 1.0573 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/codeGeneration|javascript/esm|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\@angular\core\fesm2020\core.mjs|runtime': 3.2829 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/codeGeneration|javascript/esm|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\@angular\router\fesm2020\router.mjs|runtime': 1.188 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/assets|chunkpolyfills': 2.3363 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/assets|chunkvendor': 3.0135 ms
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item: No serializer registered for SassWarning
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> SassWarning
+    [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|D:\Projects\daButtare\testKendoTheme\node_modules\css-loader\dist\cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!D:\Projects\daButtare\testKendoTheme\node_modules\postcss-loader\dist\cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!D:\Projects\daButtare\testKendoTheme\node_modules\resolve-url-loader\index.js??ruleSet[1].rules[6].rules[1].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\sass-loader\dist\cjs.js??ruleSet[1].rules[6].rules[1].use[1]!D:\Projects\daButtare\testKendoTheme\src\styles.scss?ngGlobalStyle': Error: No serializer registered for SassWarning
+    while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> Array { 1 items } -> webpack/lib/ModuleWarning -> SassWarning
+        at ObjectMiddleware.getSerializerFor (D:\Projects\daButtare\testKendoTheme\node_modules\webpack\lib\serialization\ObjectMiddleware.js:237:22)
+        at process (D:\Projects\daButtare\testKendoTheme\node_modules\webpack\lib\serialization\ObjectMiddleware.js:465:23)
+        at write (D:\Projects\daButtare\testKendoTheme\node_modules\webpack\lib\serialization\ObjectMiddleware.js:387:6)
+        at ModuleWarning.serialize (D:\Projects\daButtare\testKendoTheme\node_modules\webpack\lib\ModuleWarning.js:45:3)
+        at ClassSerializer.serialize (D:\Projects\daButtare\testKendoTheme\node_modules\webpack\lib\util\makeSerializable.js:15:7)
+        at process (D:\Projects\daButtare\testKendoTheme\node_modules\webpack\lib\serialization\ObjectMiddleware.js:480:17)
+        at write (D:\Projects\daButtare\testKendoTheme\node_modules\webpack\lib\serialization\ObjectMiddleware.js:387:6)
+        at ArraySerializer.serialize (D:\Projects\daButtare\testKendoTheme\node_modules\webpack\lib\serialization\ArraySerializer.js:10:29)
+        at process (D:\Projects\daButtare\testKendoTheme\node_modules\webpack\lib\serialization\ObjectMiddleware.js:480:17)
+        at write (D:\Projects\daButtare\testKendoTheme\node_modules\webpack\lib\serialization\ObjectMiddleware.js:387:6)
+<w> [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/codeGeneration|D:\Projects\daButtare\testKendoTheme\node_modules\css-loader\dist\cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!D:\Projects\daButtare\testKendoTheme\node_modules\postcss-loader\dist\cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!D:\Projects\daButtare\testKendoTheme\node_modules\resolve-url-loader\index.js??ruleSet[1].rules[6].rules[1].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\sass-loader\dist\cjs.js??ruleSet[1].rules[6].rules[1].use[1]!D:\Projects\daButtare\testKendoTheme\src\styles.scss?ngGlobalStyle|build time': 312.0348 ms
+<w> [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/assets|mini-css-extract-plugin.styles': 292.2522 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/assets|chunkstyles': 1.4112 ms
+<w> [webpack.cache.PackFileCacheStrategy] Serialization of 'SourceMapDevToolPlugin|styles.css': 79.5046 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/modules|javascript/esm|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\@angular\platform-browser\fesm2020\platform-browser.mjs': 1.8907 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/modules|javascript/esm|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\@angular\core\fesm2020\core.mjs': 1.2489 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/modules|javascript/esm|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\@angular\common\fesm2020\common.mjs': 2.5554 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/modules|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\rxjs\dist\esm\index.js': 4.9886 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/modules|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\rxjs\dist\esm\operators\index.js': 3.2371 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/modules|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\rxjs\dist\esm\internal\observable\merge.js': 1.4409 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/modules|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\rxjs\dist\esm\internal\operators\groupBy.js': 1.983 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'Compilation/modules|javascript/esm|D:\Projects\daButtare\testKendoTheme\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js??ruleSet[1].rules[2].use[0]!D:\Projects\daButtare\testKendoTheme\node_modules\source-map-loader\dist\cjs.js??ruleSet[1].rules[3]!D:\Projects\daButtare\testKendoTheme\node_modules\@angular\router\fesm2020\router.mjs': 2.5799 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'ResolverCachePlugin|normal|default|fullySpecified=|false|dependencyType=|esm|path=|D:\Projects\daButtare\testKendoTheme\node_modules\rxjs\dist\esm\operators|request=|../internal/operators/catchError': 2.0427 ms
+    [webpack.cache.PackFileCacheStrategy] Serialization of 'ResolverCachePlugin|normal|default|conditionNames=[|0=|sass|1=|style|]|mainFields=[|0=|sass|1=|style|2=|main|3=|...|]|extensions=[|0=|.scss|1=|.sass|2=|.css|]|restrictions=[|0=[|]|]|preferRelative=|true|symlinks=|true|dependencyType=|sass-import|mainFiles=[|0=|_index.import|1=|_index|2=|index.import|3=|index|4=|...|]|path=|D:\Projects\daButtare\testKendoTheme|request=|@progress/kendo-theme-default/scss/list/_theme.scss': 2.1953 ms
+<t> [webpack.cache.PackFileCacheStrategy] store pack: 1520.5202 ms
+    [webpack.cache.PackFileCacheStrategy] Stored pack (1332 items, 4 files, 366 MiB)
